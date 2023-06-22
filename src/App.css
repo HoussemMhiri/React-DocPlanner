@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Work+Sans:wght@100;200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #747474;
+}
+
+/* NAVBAR*/
+
+header {
+  display: flex;
+  justify-content: space-around;
+  line-height: 21px;
+  position: sticky;
+  top: 0;
+  height: 70px;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+  transition: box-shadow 0.25s ease 0s;
+}
+.sticky {
+  box-shadow: 0px -2px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.bg-body-color {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+/*HEALTHEXP */
+.container1 {
+  text-align: center;
+  height: 309px;
+  width: 1015;
+  margin: 33px 252px 60px 252px;
+  padding: 0 20px;
+  max-width: 1015px;
+  line-height: 21px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.Pargs {
+  display: flex;
+  text-align: left;
+  height: 158px;
+  line-height: 21px;
+  width: calc(497.5px * 2);
+  padding: 5px;
+}
+
+.Pargs p {
+  height: 112px;
+  width: 477.5px;
+  margin: 13px 4px 0 13px;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 3px;
+}
+
+/* 3CARDS */
+.cards-Container {
+  display: flex;
+  line-height: 21px;
+  height: 365px;
+  max-width: 1015px;
+  width: 1015px;
+  margin: 60px 252px 40px 252px;
+  padding: 0 20px;
+}
+
+.card-container {
+  background-color: #00ccb1;
+  color: white;
+  height: 345px;
+  width: 312px;
+  padding: 32px 32px 0 32px;
+  border-radius: 10px;
+  margin: 0 10px;
+  transition: opacity 0.25s ease 0.1s;
+}
+.card-container:hover {
+  opacity: 0.9;
+}
+
+.card-container:nth-child(2) {
+  background-color: #3d83df;
+}
+.card-container:nth-child(3) {
+  background-color: #1b2734;
+}
+
+.fa-solid {
+  font-size: 19px;
+}
+.info-container {
+  height: 158px;
+  width: 248px;
+  font-family: "Work Sans", Arial, sans-serif;
+  margin-bottom: 5em;
+}
+.h3Title {
+  font-size: 26px;
+  line-height: 33px;
+  letter-spacing: -0.3px;
+  margin: 8px 0;
+}
+
+.info-container p {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 28px;
+}
+
+select {
+  cursor: pointer;
+}
+
+/* BRANDS */
+
+.brands-container {
+  display: flex;
+  height: 156px;
+  width: 1015px;
+  margin: 40px 252px 50px 252px;
+  padding: 0 20px;
+}
+
+.parag {
+  height: 102px;
+  width: 322px;
+  margin: 7px 0 9px 0;
+  padding: 0 26px 0 0;
+}
+
+.parag p {
+  color: #00b39b;
+  font-weight: 300;
+  font-size: 26px;
+  letter-spacing: -0.3px;
+  line-height: 34px;
+  font-family: "Work Sans", Arial, sans-serif;
+  height: 102px;
+  width: 322px;
+}
+
+.block {
+  display: block;
+}
+
+.brands-logo {
+  height: 156px;
+  max-width: 654px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+}
+
+/* PLATFORM */
+
+.sect-cont {
+  height: 600px;
+  margin: 50px 0 88px 0;
+  padding: 30px 0 10px 0;
+  line-height: 21px;
+  background-image: url(https://cdn.discordapp.com/attachments/1093497830917816403/1108684129622564955/Sans_titre-2.png);
+  background-position: 50%;
+}
+
+.divAll-cont {
+  height: 560px;
+  width: 995px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.p-Desc {
+  height: 201px;
+  width: 497.5px;
+  margin: 32px 0 0 0;
+  padding: 10px;
+}
+
+.p-Desc h3 {
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: -0.3px;
+  color: #00b39b;
+  width: 70%;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+.p-Desc P {
+  font-size: 14px;
+  line-height: 24px;
+  width: 85%;
+  margin-top: 2em;
+}
+
+/* FOOTER */
+.footer {
+  height: 80px;
+  border-top: 1px solid #eef2f2;
+  margin-top: 23em;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #ababab;
+  height: 20px;
+  margin: 0 252px;
+}
+
+.long-P {
+  height: 16px;
+  width: 975px;
+  margin: 19px 0 5px 0;
+}
+
+.long-P a {
+  margin-right: 0.3em;
+  text-decoration: none;
+}
+
+.long-P a:hover {
+  text-decoration: underline;
+}

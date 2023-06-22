@@ -1,0 +1,125 @@
+.all-content-cont {
+  height: 1686px;
+  width: 1115px;
+  margin: 88px 252px;
+  padding: 0 20px;
+}
+
+.intro-cards {
+  text-align: center;
+  height: 172.5px;
+  width: 460px;
+  margin: 0 258px 67px 258px;
+}
+
+.intro-cards h3 {
+  color: #00b39b;
+  height: 78px;
+  line-height: 39px;
+  font-size: 30px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+}
+
+.intro-cards p {
+  font-size: 14px;
+  line-height: 24px;
+  height: 72px;
+  margin: 22px 0;
+}
+
+.cards-cont {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card-Uno {
+  border: 1px solid #ffff;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0.7em;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: box-shadow 0.2s ease 0s;
+}
+
+.card-Uno:hover {
+  box-shadow: 0px 19px 47px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-Uno:last-child img {
+  height: 270px;
+  width: 310px;
+}
+
+.info-Uno {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.info-Uno p {
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 0.6em;
+}
+
+.info-Uno button {
+  border: none;
+  background-color: #3d83df;
+  color: white;
+  font-size: 10px;
+  height: 30px;
+  width: 104px;
+  line-height: 10px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.info-Uno button:hover {
+  background-color: #0e6ce6;
+}
+
+.foot-cards {
+  text-align: center;
+  height: 102px;
+  width: 520px;
+  margin: 0 228px;
+  line-height: 19px;
+  margin-top: 5em;
+}
+
+.foot-cards p {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 39px;
+  letter-spacing: -0.3px;
+  color: black;
+  margin: 0 0 23px 0;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+.foot-cards button {
+  border: none;
+  background-color: #3d83df;
+  color: white;
+  font-size: 12px;
+  height: 40px;
+  width: 210.4px;
+  line-height: 10px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+  letter-spacing: 0.48px;
+}
+
+.foot-cards button:hover {
+  background-color: #0e6ce6;
+}
